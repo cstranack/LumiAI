@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #212926;
+    background-color: #ffffff;
 }
 
 .face {
@@ -14,14 +14,14 @@ body {
     animation: bob 3s ease-in-out infinite;
 }
 
-@keyframes bob {
+/* @keyframes bob {
     0%, 100% {
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-10px); /* Adjust height of bob here */
+        transform: translateY(-10px); Adjust height of bob here
     }
-}
+} */
 
 .background {
     position: absolute;
@@ -35,14 +35,14 @@ body {
     animation: glow 5s infinite;
 }
 
-@keyframes glow {
+/* @keyframes glow {
     0%, 100% {
         box-shadow: 0 0 60px rgba(119, 163, 45, 0.6), 0 0 80px rgba(18, 136, 144, 0.8);
     }
     50% {
         box-shadow: 0 0 100px rgba(119, 163, 45, 0.8), 0 0 120px rgba(18, 136, 144, 1);
     }
-}
+} */
 
 .eye-container {
     position: absolute;
